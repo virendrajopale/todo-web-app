@@ -15,7 +15,7 @@ function UpdateTodoForm({ todo, setupdatebtn }) {
     e.preventDefault();
     try {
       await dispatch(updateTodo({ id, updata }));
-      // await dispatch(getTodos());
+      await dispatch(getTodos());
       setupdatebtn(false);
     } catch (err) {
       console.error('Error updating todo:', err);

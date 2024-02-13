@@ -13,9 +13,9 @@
 
 
 # misc
-# /backend/config/config.env
-# ./backend/config/config.env
-# backend/config/config.env
+/backend/config/config.env
+./backend/config/config.env
+backend/config/config.env
 /frontend.DS_Store
 /frontend.DS_Store
 /frontend.env.local
