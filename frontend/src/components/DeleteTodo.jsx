@@ -9,7 +9,7 @@ function DeleteTodo({ id }) {
   const handleDelete = async () => {
     try {
       await dispatch(deletetodo({id}));
-      await dispatch(getTodos());
+      // await dispatch(getTodos());
     } catch (error) {
       console.error('Error deleting todo:', error);
 

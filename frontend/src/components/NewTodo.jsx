@@ -15,7 +15,7 @@ export const NewTodo = () => {
 
     try {
      await dispatch(createTodo(todoText));
-     await dispatch(getTodos());
+    //  await dispatch(getTodos());
       setTodoText({ task: '' }); 
     } catch (err) {
       console.error('Error creating todo:', err);
