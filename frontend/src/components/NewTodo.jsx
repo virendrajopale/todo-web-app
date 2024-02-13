@@ -12,7 +12,7 @@ export const NewTodo = () => {
 
     const myForm = new FormData();
     myForm.set('task', todoText.task);
-    console.log(myForm)
+
     try {
      await dispatch(createTodo(todoText));
      await dispatch(getTodos());
